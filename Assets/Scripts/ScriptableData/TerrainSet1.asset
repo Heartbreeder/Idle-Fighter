@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1b5a77188165a41a0d38d750b1650b, type: 3}
+  m_Name: TerrainSet1
+  m_EditorClassIdentifier: 
+  Array:
+  - BackgroundBack: {fileID: 21300000, guid: 4df03788c5274d54eac35a35b11ea43c, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 6096f3e880632224f8c4f277f21f523d, type: 3}
+    BGM: {fileID: 8300000, guid: 8d1ccb30783e6934aa7d2fb399e18541, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 21e824135d32d13498684c06aa960cbb, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 30250b58c6b67ae4a80ba1219f8146cd, type: 3}
+    BGM: {fileID: 8300000, guid: 335b13ec5be7ddd46ab99a945bd36c8a, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 43fbbff36ac685d48901a716defc05e2, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 14b86bbee2af6ba499845a454d82ee3f, type: 3}
+    BGM: {fileID: 8300000, guid: bc8b2a9b52c9c2c4fb719cee5e2ac01a, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: a2cdd7bcd04af6c49ac7ad2d9a22e408, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 93c386c3ee50fe64697a70727a7b8279, type: 3}
+    BGM: {fileID: 8300000, guid: b6248ebbf5889a6458bb5bfcb7931621, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: b0e21e1b407be114bae02693cfcac774, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 053c6cfa07454f149abe566e04014894, type: 3}
+    BGM: {fileID: 8300000, guid: 5fd5a7aa82e33bd4fa0493e2183068ef, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 5eb62af09ca29c94db54ebfc6b74edea, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 794645ffd0b460e4f816c9f77454f314, type: 3}
+    BGM: {fileID: 8300000, guid: 8a66884ff9fead547b9d33b74ecf9f9e, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: edc65ae26f9db9743bc79c0d9c3f960e, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 87d8356645d4edf4fb6435c77ee63f6c, type: 3}
+    BGM: {fileID: 8300000, guid: 82afe483a95b48047acdf5ef4fe9eb10, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 19fca6645e2b03b419cb81ffd7dfc7de, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 90ff83d7d227ded4b967d95e309149e4, type: 3}
+    BGM: {fileID: 8300000, guid: 9f383993ee36e8c4e9abbf30fc489489, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 74526d6bbf7570a43950baa4b4823a85, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 98f2402ce5e371e499e26c5ce879519c, type: 3}
+    BGM: {fileID: 8300000, guid: 17a8554007021a743b87139428bb9a8e, type: 3}
+  - BackgroundBack: {fileID: 21300000, guid: 336fd443111e8464c996219c76d7a36b, type: 3}
+    BackgroundFront: {fileID: 21300000, guid: 6ae45ee0a38760f45b3d2f062d237d78, type: 3}
+    BGM: {fileID: 8300000, guid: c0466e51eb737ac45bac42fc0af6971e, type: 3}

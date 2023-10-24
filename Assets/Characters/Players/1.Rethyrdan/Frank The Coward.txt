@@ -1,0 +1,31 @@
+Character 1: Frank the coward
+Role: Fighter
+Description: Frank has moderate damage and defenses but he does not scale well at higher level. Deals more damage versus non-bosses and reduced damage to bosses.
+Cost:	10 + (1 * lvl) + (0.2 * prev * lvl)
+HP: 	20 + (1 * lvl) + (0.005 * prev * lvl)
+DMG:	1 + (1 * lvl) + (0 * prev * lvl)
+Armor: 1 + (0.1 * lvl) + (0 * prev * lvl)
+Speed:	0.5 + floor(0.05*(lvl/20))
+Abilities:
+	Basic: Coward's slash
+		Deals more damage to normal enemies but reduced damage to bosses.
+		Animation: Attack 1
+		Target: Enemy
+		DMG: vs non-Boss 120%*DMG
+			vs Boss 75%*DMG
+	Secondary: Bleeding stab
+		Deals damage and makes the enemy bleed for a few seconds for additional damage
+		Animation: Attack 1
+		Target: Enemy
+		Dmg: 100%*DMG
+		Effect: Bleed 10%*dmg every 0.1sec for 0.5 sec
+	Special: Curl Up
+		Cowers in fear, increasing armor for a few seconds
+		Animation: Attack 2
+		Target: Self
+		Effect: Armor + (1/lvl) for 5 sec
+	Active: Detonate bomb
+		Deals instant damage to the enemy with a hidden explosive
+		Target: Enemy
+		Dmg: 10*LVL
+		Cooldown: 1min

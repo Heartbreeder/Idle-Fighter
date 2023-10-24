@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b516c3a77885164ba91b11365405efa, type: 3}
+  m_Name: BossSetGrass
+  m_EditorClassIdentifier: 
+  Array:
+  - CharacterName: Big Bad Bee
+    CharacterPortrait: {fileID: 0}
+    CharacterPrefab: {fileID: 6936898621967010372, guid: 474dd36fc183b3b4baf5cd5160916042,
+      type: 3}
+    CharacterDescription: Tha baddest of all Beekind
+    CharacterRole: 0
+    BaseStats:
+      BaseCost: 10
+      IncreaseCostLinear: 0.25
+      IncreaseCostProgressive: 0.01
+      BaseHP: 20
+      IncreaseHPLinear: 5
+      IncreaseHPProgressive: 0.01
+      BaseDMG: 10
+      IncreaseDMGLinear: 0.5
+      IncreaseDMGProgressive: 0.01
+      BaseArmor: 0
+      IncreaseArmorLinear: 0
+      IncreaseArmorProgressive: 0
+      BaseSpeed: 0.7
+      IncreaseSpeedLinear: 0
+      IncreaseSpeedLevelStep: 0
+    BaseAtk:
+      AbilityName: Bee Sting
+      ActivationLvl: 0
+      AnimationSelf: Idle
+      AbilitySFX: {fileID: 0}
+      Targets: 1
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: 
+      ActivationLvl: 0
+      AnimationSelf: 
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 0
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: 
+      ActivationLvl: 0
+      AnimationSelf: 
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 0
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: 

@@ -1,0 +1,33 @@
+Fight Interface
+	Make the targetting system smarter
+		not only get target but a non-empty target and if targets=0 then do nothing
+		Make a Target=self option
+	Allies
+		Add particle effects to the attacks
+		Enable 2nd and 3rd skill
+			Create Game Object effects for each skill
+		EXTRA Alternative Char replacement
+		Enable Active skill
+	Enemies
+		Add more enemies (10 backgrounds, 2-3 enemies per background)
+		Add particle effects to the attacks
+	Bosses
+		Add Gem drops per 1st kill of each boss
+
+Monitor Interface
+	Options Menu - Pending
+
+Menus Interface
+	Info UI
+		Show character info per character
+	Shop UI
+		Watch Ad to get gold
+		Spend gems to get loot boxes -> Get items
+	Inventory UI
+		Add Items per char
+			Weapon -> + dmg
+			Chest -> + HP
+			Helm -> + armor
+			Legs -> + speed
+			Offhand -> char-dependent (tank-shield-armor, fighter-offhand-damage, healer-orb-dmg/heal, archer-quiver-speed, mage-clock-active cooldowns)
+

@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b516c3a77885164ba91b11365405efa, type: 3}
+  m_Name: CharacterSet1
+  m_EditorClassIdentifier: 
+  Array:
+  - CharacterName: Rethyrdan the Brave
+    CharacterPortrait: {fileID: 21300000, guid: 3f8aa638b72423547b70cfd9bb5d837c,
+      type: 3}
+    CharacterPrefab: {fileID: 2690097180366648340, guid: c45d56f140fdde745826725507e31564,
+      type: 3}
+    CharacterDescription: Rethyrdan wears the best armor any blacksmiths have to
+      offer. Has high health but low damage and attack speed.
+    CharacterRole: 0
+    BaseStats:
+      BaseCost: 8
+      IncreaseCostLinear: 5
+      IncreaseCostProgressive: 1.3
+      BaseHP: 20
+      IncreaseHPLinear: 4
+      IncreaseHPProgressive: 0.3
+      BaseDMG: 1
+      IncreaseDMGLinear: 1
+      IncreaseDMGProgressive: 0.01
+      BaseArmor: 1
+      IncreaseArmorLinear: 0.1
+      IncreaseArmorProgressive: 0.05
+      BaseSpeed: 0.5
+      IncreaseSpeedLinear: 0
+      IncreaseSpeedLevelStep: 0
+    BaseAtk:
+      AbilityName: Coward's Slash
+      Description: Basic slash attack.
+      AbilityIcon: {fileID: 21300000, guid: ccba03621fbb8de4fb183c2f948922a5, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Slashing
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: Jumping slash
+      Description: Jumps in the air and slashes foe. Deals bonus Damage.
+      AbilityIcon: {fileID: 21300000, guid: 71d2da178c587b84998f0342c7d74e62, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Slashing In The Air
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 0
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: Guard Up
+      Description: Raises armor for 2 sec
+      AbilityIcon: {fileID: 21300000, guid: c95276815279a2f4c87672a14a059bb6, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: 
+      AbilitySFX: {fileID: 0}
+      Targets: 1
+      TargetAmount: 1
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: Tap up
+      Description: Increases tap damage for 15 seconds
+      AbilityIcon: {fileID: 21300000, guid: 8da05c497ea32a94f8467d5c11551fe8, type: 3}
+      Cooldown: 180
+      ActivationLvl: 700
+  - CharacterName: Confuci the Agile
+    CharacterPortrait: {fileID: 21300000, guid: 9698a80bbf219f344af5b24750ddae21,
+      type: 3}
+    CharacterPrefab: {fileID: 2256122303235693478, guid: 3964d08b63358bc428111c4379449cf3,
+      type: 3}
+    CharacterDescription: Confuci has high attack speed, average damage, high health,
+      but no armor.
+    CharacterRole: 3
+    BaseStats:
+      BaseCost: 81
+      IncreaseCostLinear: 32
+      IncreaseCostProgressive: 1.5
+      BaseHP: 50
+      IncreaseHPLinear: 6
+      IncreaseHPProgressive: 0.4
+      BaseDMG: 15
+      IncreaseDMGLinear: 1.5
+      IncreaseDMGProgressive: 0.04
+      BaseArmor: 0
+      IncreaseArmorLinear: 0.01
+      IncreaseArmorProgressive: 0
+      BaseSpeed: 1
+      IncreaseSpeedLinear: 0.05
+      IncreaseSpeedLevelStep: 2
+    BaseAtk:
+      AbilityName: Spear poke
+      Description: 
+      AbilityIcon: {fileID: 21300000, guid: 2dcbca4fe5e10f143b5e77fc788c8b41, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Attacking
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: Spear Toss
+      Description: Throws the spear for increased damage
+      AbilityIcon: {fileID: 21300000, guid: f375c187724fa3d4696ba0c3e6ced507, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Throwing
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 1.5
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: Sucker punch
+      Description: Punches and stuns the enemy. Deals minimal damage
+      AbilityIcon: {fileID: 21300000, guid: 5c5aef4c712dba042a67fc9cbf7b288e, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Kicking
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0.1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: Rage
+      Description: Doubles the attack speed of all allies for 30 seconds.
+      AbilityIcon: {fileID: 21300000, guid: 8662beb19f517e7499030d20c24e1d41, type: 3}
+      Cooldown: 300
+      ActivationLvl: 0
+  - CharacterName: Sevy the Healer
+    CharacterPortrait: {fileID: 21300000, guid: fa9a9ff52a72f5f439d9497bdd220d86,
+      type: 3}
+    CharacterPrefab: {fileID: 4213981445232960413, guid: 9366426388199f944b6a91b49a3d22f1,
+      type: 3}
+    CharacterDescription: Sevy is a cleric that can heal allies over time. Does not
+      attack enemies but instead heals allies.
+    CharacterRole: 1
+    BaseStats:
+      BaseCost: 400
+      IncreaseCostLinear: 123
+      IncreaseCostProgressive: 1.7
+      BaseHP: 30
+      IncreaseHPLinear: 3
+      IncreaseHPProgressive: 0.05
+      BaseDMG: -25
+      IncreaseDMGLinear: -2
+      IncreaseDMGProgressive: -0.1
+      BaseArmor: 1
+      IncreaseArmorLinear: 0.05
+      IncreaseArmorProgressive: 0
+      BaseSpeed: 0.25
+      IncreaseSpeedLinear: 0.025
+      IncreaseSpeedLevelStep: 20
+    BaseAtk:
+      AbilityName: Healing Strike
+      Description: Heals the frontmost ally
+      AbilityIcon: {fileID: 21300000, guid: 02fea1b4be0c8f44caf9c1fbdcc8d74f, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Attacking
+      AbilitySFX: {fileID: 0}
+      Targets: 1
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: Regeneration
+      Description: Casts a regeneration effect on the frontmost ally
+      AbilityIcon: {fileID: 21300000, guid: 76fe444c54d69464794076c86a04e357, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Taunt
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: Mass Heal
+      Description: Heals the whole party
+      AbilityIcon: {fileID: 21300000, guid: f987871e354d93c40be51e31dd36bc00, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Taunt
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0.7
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: Emergency Aid
+      Description: Instantly heals all allies
+      AbilityIcon: {fileID: 21300000, guid: 121086bad9476ad4db680b5c9e8907b0, type: 3}
+      Cooldown: 300
+      ActivationLvl: 0
+  - CharacterName: Fox the Sniper
+    CharacterPortrait: {fileID: 21300000, guid: 9636388ba0a356945a90291dedf42213,
+      type: 3}
+    CharacterPrefab: {fileID: 625257896179051702, guid: e1bfd071ff5a0da4b8ea4cac6ca098af,
+      type: 3}
+    CharacterDescription: Fox is a hunter that deals slow but deadly shots
+    CharacterRole: 2
+    BaseStats:
+      BaseCost: 7540
+      IncreaseCostLinear: 870
+      IncreaseCostProgressive: 1.9
+      BaseHP: 30
+      IncreaseHPLinear: 3
+      IncreaseHPProgressive: 0.05
+      BaseDMG: 150
+      IncreaseDMGLinear: 10
+      IncreaseDMGProgressive: 0.01
+      BaseArmor: 2
+      IncreaseArmorLinear: 0.05
+      IncreaseArmorProgressive: 0
+      BaseSpeed: 0.4
+      IncreaseSpeedLinear: 0.004
+      IncreaseSpeedLevelStep: 15
+    BaseAtk:
+      AbilityName: Shot
+      Description: Heals the frontmost ally
+      AbilityIcon: {fileID: 21300000, guid: 252490d7c83ca0b4e8684052b7d2cdc1, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Shooting
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: Distract
+      Description: Taunts the enemy, reducing their attack speed for their next 2
+        attacks
+      AbilityIcon: {fileID: 21300000, guid: 67cdf37a1065c5047982320e20d3ad85, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Taunt
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: Snipe
+      Description: Deals heavy damage to the enemy
+      AbilityIcon: {fileID: 21300000, guid: ba04e3298f185b84b870e632ce1ec2c3, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Shooting In The Air
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 2.5
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: Mark
+      Description: Target is marked and worth 5x the normal amount of gold
+      AbilityIcon: {fileID: 21300000, guid: 24f04dc7cab4e8341b916ae13fba2173, type: 3}
+      Cooldown: 60
+      ActivationLvl: 0
+  - CharacterName: Umbra the Warlock
+    CharacterPortrait: {fileID: 21300000, guid: 68198f410e40c86479032445e640365f,
+      type: 3}
+    CharacterPrefab: {fileID: 5097954581067724774, guid: ab9bc7233a4c2414daac37336a99115d,
+      type: 3}
+    CharacterDescription: Umbra is a warlock that deals heavy damage over time.
+    CharacterRole: 4
+    BaseStats:
+      BaseCost: 35000
+      IncreaseCostLinear: 1750
+      IncreaseCostProgressive: 2.5
+      BaseHP: 60
+      IncreaseHPLinear: 2
+      IncreaseHPProgressive: 0.05
+      BaseDMG: 325
+      IncreaseDMGLinear: 1
+      IncreaseDMGProgressive: 0.3
+      BaseArmor: 0
+      IncreaseArmorLinear: 0
+      IncreaseArmorProgressive: 0
+      BaseSpeed: 0.5
+      IncreaseSpeedLinear: 0
+      IncreaseSpeedLevelStep: 0
+    BaseAtk:
+      AbilityName: Dark Shot
+      Description: Shoots the enemy with an orb of dark matter
+      AbilityIcon: {fileID: 21300000, guid: a8f2bb4710532044c8de68e0009eb7b9, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Swinging Rod
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack2:
+      AbilityName: Bleed
+      Description: Deals moderate damage over a short time
+      AbilityIcon: {fileID: 21300000, guid: e839d0c2e6b7e5247a546da0cdf9a155, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Throwing
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0.2
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    Attack3:
+      AbilityName: Poison
+      Description: Deals small damage over a long time
+      AbilityIcon: {fileID: 21300000, guid: bf2b91255f57c0a4f9737f0ff178a6e1, type: 3}
+      ActivationLvl: 0
+      AnimationSelf: Throwing
+      AbilitySFX: {fileID: 0}
+      Targets: 0
+      TargetAmount: 1
+      DamageMultiplier: 0.1
+      TargetVFXPrefab: {fileID: 0}
+      TargetEffectPrefab: {fileID: 0}
+      TargetEffectDuration: 0
+    ActiveSkill:
+      AbilityName: Death Coil
+      Description: Deals heavy instant damage to the enemy
+      AbilityIcon: {fileID: 21300000, guid: 0c2cd3544eb944a489b1f45bcca978b8, type: 3}
+      Cooldown: 600
+      ActivationLvl: 0
